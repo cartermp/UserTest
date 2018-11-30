@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "strawberry",
+    "HasSeeds": true
+  },
+  {
+    "Name": "blueberry",
+    "HasSeeds": true
+  },
+  {
+    "Name": "Tomato",
+    "HasSeeds": false
+  }
+]
