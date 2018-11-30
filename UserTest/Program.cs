@@ -8,18 +8,22 @@ namespace ConsoleApp68
     {
         static void PrintStats(List<Fruit> fruit, List<Person> people)
         {
-            // Print out the values of properties in fruit and people
+            // Print out the values of properties in fruit and people (such as Name)
         }
 
-        static List<Person> GetFruits(string json)
+        static List<Person> GetPeople(string json)
         {
-            // Use JSON.NET to convert to JSON string into a list of people
+            // Use JSON.NET to convert to JSON string into a list of people:
+            //
+            // JsonConvert.DeserializeObject<List<Person>>)(json)
             throw new NotImplementedException();
         }
 
         static List<Fruit> GetFruit(string json)
         {
-            // Use JSON.NET to convert the JSON string into a list of fruits
+            // Use JSON.NET to convert the JSON string into a list of fruits:
+            //
+            // JsonConvert.DeserializeObject<List<Fruit>>)(json)
             throw new NotImplementedException();
         }
 
@@ -34,9 +38,16 @@ namespace ConsoleApp68
             var fruitPath = @"..\..\..\fruit.json";
             var peoplePath = @"..\..\..\people.json";
 
-            // 1. Read the JSON files
-            // 2. Convert them int fruits and people (using above methods)
-            // 3. Call the method to print stats about the fruit and people
+            // 1. Read the JSON files into JSON strings using ReadFile
+
+
+
+            // 2. Convert the JSON strings into lists of fruit and people with GetFruit and GetPeople
+
+
+            // 3. Call PrintStats with the list of fruit and list of people
+
+
 
             Console.ReadKey();
         }
