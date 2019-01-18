@@ -15,7 +15,7 @@ namespace ConsoleApp68
         {
             // Use JSON.NET to convert to JSON string into a list of people:
             //
-            // JsonConvert.DeserializeObject<List<Person>>)(json)
+            // JsonConvert.DeserializeObject<List<Person>>(json)
             throw new NotImplementedException();
         }
 
@@ -23,7 +23,7 @@ namespace ConsoleApp68
         {
             // Use JSON.NET to convert the JSON string into a list of fruits:
             //
-            // JsonConvert.DeserializeObject<List<Fruit>>)(json)
+            // JsonConvert.DeserializeObject<List<Fruit>>(json)
             throw new NotImplementedException();
         }
 
