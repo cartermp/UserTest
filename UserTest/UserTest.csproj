@@ -24,7 +24,7 @@ System.Threading.Thread.Sleep(this.Delay);
   </UsingTask>
 
   <Target Name="DelayDesignTimeBuild" AfterTargets="ResolveAssemblyReferences">
-    <Sleep Delay="0" />
+    <Sleep Delay="60000" />
     <!--<Sleep Delay="20000" />-->
     <!--<Sleep Delay="30000" />-->
     <!--<Sleep Delay="60000" />-->
